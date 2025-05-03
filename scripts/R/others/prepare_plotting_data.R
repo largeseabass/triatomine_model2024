@@ -1,9 +1,9 @@
 library("raster")
 
 bug_list <- list('san','dim','ger','pro','lon','rub','pal','bar','mex','lec','rec','maz','hir','ind')
-top_maxent_file_dir <- "/Users/liting/Documents/GitHub/r_chagasM/output/pixel_buffer_off"
-top_rf_file_dir <- "/Users/liting/Documents/GitHub/r_chagasM/output/rf/pixel_buffer_off"
-top_diff_file_dir <- "/Users/liting/Documents/GitHub/r_chagasM/output/figures/final_plot/difference"
+top_maxent_file_dir <- "/your_path/Documents/GitHub/r_chagasM/output/pixel_buffer_off"
+top_rf_file_dir <- "/your_path/Documents/GitHub/r_chagasM/output/rf/pixel_buffer_off"
+top_diff_file_dir <- "/your_path/Documents/GitHub/r_chagasM/output/figures/final_plot/difference"
 for (this_bug in bug_list){
   top_file_dir <- paste(top_diff_file_dir,'/',this_bug,sep = '')
   print(top_file_dir)

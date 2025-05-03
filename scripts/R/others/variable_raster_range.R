@@ -7,11 +7,11 @@ library(dplyr)
 # List of variable names
 variables <- c("Tave_sp", "Tave_sm", "Tave_at", "Tave_wt", "MAT", "MCMT", "MWMT", "TD", "EMT", "EXT", "DD_0", "DD5", "DD_18", "DD18", "DD1040", "FFP", "bFFP", "eFFP", "PAS", "NFFD", "Eref", "CMD", "CMI", "AHM", "SHM", "PPT_sp", "PPT_sm", "PPT_at", "PPT_wt", "RH", "MAP", "MSP", "Barren", "cropland", "forest", "grassland", "permanent snow and ice", "urban", "water")
 # Paths to folders
-folders <- c("/Users/liting/Documents/data/resample_mask/historical", 
-             "/Users/liting/Documents/data/resample_mask/ssp126_2071_2100", 
-             "/Users/liting/Documents/data/resample_mask/ssp245_2071_2100", 
-             "/Users/liting/Documents/data/resample_mask/ssp370_2071_2100", 
-             "/Users/liting/Documents/data/resample_mask/ssp585_2071_2100")
+folders <- c("/your_path/Documents/data/resample_mask/historical", 
+             "/your_path/Documents/data/resample_mask/ssp126_2071_2100", 
+             "/your_path/Documents/data/resample_mask/ssp245_2071_2100", 
+             "/your_path/Documents/data/resample_mask/ssp370_2071_2100", 
+             "/your_path/Documents/data/resample_mask/ssp585_2071_2100")
 
 # Prepare a data frame to store the results
 results_df <- data.frame(variable = variables)
@@ -39,4 +39,4 @@ for (folder in folders) {
 }
 
 
-write.csv(results_df, "/Users/liting/Documents/GitHub/r_chagasM/output/figures/raster_ranges.csv")
+write.csv(results_df, "/your_path/Documents/GitHub/r_chagasM/output/figures/raster_ranges.csv")

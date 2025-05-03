@@ -1163,8 +1163,8 @@ number_replicate = 10
 
 
 for (this_bug in bug_list){
-  top_file_dir = "/Users/liting/Documents/GitHub/r_chagasM/output/grid_nobuffer_on"#"/Users/liting/Documents/GitHub/r_chagasM/output/kfold_process"
-  input_file_dir <-"/Users/liting/Documents/GitHub/r_chagasM"
+  top_file_dir = "/your_path/Documents/GitHub/r_chagasM/output/grid_nobuffer_on"#"/your_path/Documents/GitHub/r_chagasM/output/kfold_process"
+  input_file_dir <-"/your_path/Documents/GitHub/r_chagasM"
   occ_grid_path = paste(input_file_dir,"/cell/",this_bug,".csv",sep = '')
   clim_grid_path = paste(input_file_dir,"/bioclimatic/historical/5km.csv",sep = '')
   buffer_grid_path = paste(input_file_dir,"/buffer/",this_bug,".csv",sep = '')

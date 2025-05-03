@@ -1658,9 +1658,9 @@ run_maxent_model_prediction_list <- function(mod_list_path,clim_dir,maxent_raste
 
 bug_list <- list("ger","san","dim","pro","rub","lon","pal","bar","mex","lec","ind","maz","rec","hir")
 number_replicate <- 10
-top_file_dir <- "/Users/liting/Documents/GitHub/r_chagasM/output/pixel_buffer_off"
-input_file_dir <-"/Users/liting/Documents/GitHub/r_chagasM"
-clim_dir <- "/Users/liting/Documents/data/resample_mask/historical/"
+top_file_dir <- "/your_path/Documents/GitHub/r_chagasM/output/pixel_buffer_off"
+input_file_dir <-"/your_path/Documents/GitHub/r_chagasM"
+clim_dir <- "/your_path/Documents/data/resample_mask/historical/"
 shapefile_path <-paste(input_file_dir,"/masked_raster/shapefile.shp",sep = '')
 
 for (this_bug in bug_list){
@@ -1718,7 +1718,7 @@ for (this_bug in bug_list){
   # # ########################################
   # 
   # 
-  # dir_resample_mask <- "/Users/liting/Documents/data/resample_mask"
+  # dir_resample_mask <- "/your_path/Documents/data/resample_mask"
   # 
   # cv_result_list_path <- paste(all_path_stack$maxent_evaluate_dir,'/cv_models.RDS',sep = '')
   # this_model_path <- paste(all_path_stack$maxent_model_dir,'/',dir_sub_name,'_final_model_training_all.RDS',sep = '')

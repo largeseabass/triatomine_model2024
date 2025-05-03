@@ -1,0 +1,53 @@
+<<explanation of column names>>
+* If the corresponding information is available in the original paper, it would be recorded in the following columns. If the information is not available, the corresponding column will be left blank.
+* We will remove columns which are entirely empty after merging all the datasets.
+<general information about the species and its observation>
+'id': [ignore] assigned later
+'Genus': Genus Name
+'Species': Species Name
+'Subspecies': Subspecies Name (if any)
+'Sex': sex of the triatomine 
+'Habitat': Habitat of the triatomine 
+'Collection Method': Collection Method of the triatomine 
+'count': number of triatomine collected 
+'Natural infection information': information about if the triatomines carry Chagas (if the samples were tested and the results was recorded)
+'observation comment': any other information about observation 
+'num_identification_agreements': if this triatomine's primary collector are not professionally trained, the genus and species names were identified later, and we have the number of identification agreements to show how many researchers agreed that the triatomine's genus and species names are the ones recordered.
+'num_identification_disagreements', if this triatomine's primary collector are not professionally trained, the genus and species names were identified later, and we have the number of identification agreements to show how many researchers disagreed that the triatomine's genus and species names are the ones recordered.
+
+
+<geographical information>
+'Location': at which location (exact address or city name) the observation occured.
+'MunicipioCounty': in which municipio or county the observation occured.
+'StateProvince': in which state or province the observation occured.
+'Country': in which country the observation occured.
+'DecimalLatitude': the latitude expressed in decimal
+'DecimalLongitude': the longitude expressed in decimal
+'Altitude MASL': the altitude of the observation location.
+'georeferenceSources': which devise was used to record the latitude and longitude, e.g. GPS or mobile phone.
+'positional_accuracy': the quantitative or qualitative information describing the accuracy of coordinates, coordinate Uncertainty In Meters
+'public_positional_accuracy': the quantitative or qualitative information describing the public accuracy of coordinates, if any                  
+'geoprivacy': if any
+'Comments on coordinates': any other information about the observation's coordinates
+
+<time>
+'year-begin': the year of observation or the year when the observation period was started (if the observation was made in a period of time).
+'month-begin': the month of observation or the month when the observation period was started (if the observation was made in a period of time).
+'day-begin': the day of observation or the day when the observation period was started (if the observation was made in a period of time).
+'year-end': the year when the observation period was started (if the observation was made in a period of time), or leave it blank if the observation was made on a specific year
+'month-end': the month when the observation period was started (if the observation was made in a period of time), or leave it blank if the observation was made on a specific month
+'day-end': the day when the observation period was started (if the observation was made in a period of time), or leave it blank if the observation was made on a specific day
+'time': the exact time the observation occurred
+'time zone': the time zone of the observation
+'time notes': the original text that recorded the time (if this observation was collected from other databases)
+'time comment': any other information about the observation's time
+    
+<collector information>
+'Primary Collector info': the original source of the observation
+'Secondary Collector info': the person or database who collected the observation from the original source
+    
+<quality control>
+'data quality': the notes on data quality inherited from the original source. 
+'coordinate reliability': [ignore] assigned later
+'on the land': [ignore] assigned later
+'select for 2023 model': [ignore] assigned later
