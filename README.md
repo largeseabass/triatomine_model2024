@@ -2,8 +2,14 @@
 
 This repository contains all the files used in the work. Please cite the paper *pending* if you use any of these scripts in your work.
 
+Notes: 
+##### Version of R-studio Version 2023.12.0+369 (2023.12.0+369)
 
-A Brief Summary of the workflow:
+Some packages may no longer available if you are using a later R version, please consult LLM-model for replacement suggestions.
+
+##### Python Conda Environment: environment.yml 
+
+All the python/Jupyter notebook files are running in this environment called analysis, except for the pyQGIS environment file **/scripts/python/grid_input_generation/presence_points_buffer.py**. For the later one, please follow the [instruction](https://github.com/largeseabass/KissingBugsRf.git) to select the corresponding python version.
 
 ### 1. Observation Data filtering
 
